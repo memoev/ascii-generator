@@ -3,6 +3,7 @@ const colors = require('colors');
 const fire = require('js-fire');
 const inquirer = require('inquirer')
 
+// Colors
 colors.setTheme({
     silly: 'rainbow',
     input: 'grey',
@@ -15,8 +16,10 @@ colors.setTheme({
     debug: 'blue',
     error: 'red'
 });
-    
+
+// Handling CLI with js-fire
 var makeWord = {
+    // Word being auto generated with: node index auto on console
     auto: () => { 
         figlet.text('word', {
             font: '3-d',
@@ -33,6 +36,7 @@ var makeWord = {
             console.log(colors.silly(data));
         });
     },
+    // Word being created with: node index auto on console
     create: () => {
         inquirer
             .prompt([
