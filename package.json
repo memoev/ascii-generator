@@ -18,6 +18,8 @@
   "homepage": "https://github.com/mexcelus/ascii-generator#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "figlet": "^1.2.4"
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "js-fire": "^0.7.0"
   }
 }
