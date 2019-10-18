@@ -66,7 +66,7 @@ var makeWord = {
                     }
         
                     // console.log(data.length);
-                    console.log(colors.help(data));
+                    console.log(colors.info(data));
                 });
             });
     }
