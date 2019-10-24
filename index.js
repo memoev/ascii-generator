@@ -33,7 +33,7 @@ var makeWord = {
             }
         
             // console.log(data.length);
-            console.log(colors.silly(data));
+            console.log(colors.warn(data));
         });
     },
     // Word being created with: node index auto on console
@@ -66,7 +66,7 @@ var makeWord = {
                     }
         
                     // console.log(data.length);
-                    console.log(colors.info(data));
+                    console.log(colors.warn(data));
                 });
             });
     }
